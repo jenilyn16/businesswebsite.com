@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Crizel Nail Studio — Your Glam Nail Partner 💖</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- particle canvas -->
+    <canvas id="particles"></canvas>
+
+    <!-- Social sticky sidebar -->
+    <!-- 🌸 Animated Live Background -->
+    <div class="live-bg"></div>
+
+    <!-- Sidebar for socials -->
+    <aside class="social-sidebar" aria-hidden="true">
+        <a href="#" class="social" title="Facebook">🌸 f</a>
+        <a href="#" class="social" title="Instagram">💖 ig</a>
+        <a href="#" class="social" title="TikTok">🎬 tt</a>
+    </aside>
+
+    <!-- Top navigation -->
+    <header class="topbar fade-down">
+        <nav class="nav container">
+            <div class="nav-left">
+                <img src="LOGO CRIZEL.png" alt="Crizel Nail Studio logo" class="nav-logo" onerror="this.onerror=null;this.src='logo M.png'">
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="fade-link">About</a></li>
+                <li><a href="#services" class="fade-link">Services</a></li>
+                <li><a href="#pricing" class="fade-link">Pricing</a></li>
+                <li><a href="#gallery" class="fade-link">Gallery</a></li>
+                <li><a href="#contact" class="fade-link">Contact</a></li>
+            </ul>
+
+            <button id="hamburger" class="hamburger" aria-label="menu" aria-expanded="false">
+      <span class="bar bar1"></span>
+      <span class="bar bar2"></span>
+      <span class="bar bar3"></span>
+    </button>
+        </nav>
+    </header>
+
+    <!-- HERO / Banner -->
+    <section class="hero" id="home">
+        <div class="hero-inner container">
+            <img src="LOGO CRIZEL.png" alt="Crizel logo" class="hero-logo" onerror="this.onerror=null;this.src='logo M.png'">
+            <h1 class="hero-headline">Crizel Nail Studio <span class="accent">💖</span></h1>
+            <p class="hero-sub">Indulge in premium nails, spa, and skin services — curated for elegance & relaxation.</p>
+
+            <div class="hero-ctas">
+                <a class="btn primary" href="#services">Explore Services</a>
+                <a class="btn ghost" href="#contact">Book Now</a>
+            </div>
+
+            <div class="hero-note">Walk-ins welcome • Gift cards available 🎁</div>
+        </div>
+    </section>
+
+    <!-- Follow strip -->
+    <section class="follow-strip">
+        <div class="container follow-inner">
+            <div class="ig">
+                <span class="ig-icon">📷</span>
+                <span class="ig-handle">@crizelnailstudio</span>
+            </div>
+            <a class="btn follow-btn" href="#gallery">Follow us!</a>
+        </div>
+    </section>
+
+    <!-- 🌸 About Section -->
+    <section id="about" class="section container reveal highlight-section">
+        <div class="two-col">
+            <div class="col">
+                <h2 class="highlight-title">About Crizel Nail Studio</h2>
+                <p>
+                    Crizel Nail Studio is a boutique sanctuary where artistry meets pampering. Our team delivers meticulous nail art, long-wear finishes, restorative spa therapies, and bespoke facial treatments — all tailored to leave you radiant and relaxed.
+                </p>
+                <p class="muted">Professional • Clean • Luxurious 💅✨</p>
+            </div>
+
+            <div class="col">
+                <img src="body.jpg" alt="salon" class="about-img">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="section container reveal">
+        <h2 class="section-title">Services</h2>
+        <p class="section-lead">Our carefully curated menu — beauty, comfort, and style combined.</p>
+
+        <div class="cards-grid">
+            <article class="card">
+                <img src="both 2.jpg" alt="Classic Manicure" class="card-img">
+                <h3>Classic Manicure 💅</h3>
+                <p>Shaping, cuticle care, buffing, and finishing polish.</p>
+                <div class="price">₱300</div>
+            </article>
+
+            <article class="card">
+                <img src="both.jpg" alt="Gel Manicure" class="card-img">
+                <h3>Gel Manicure 🌟</h3>
+                <p>Long-wear gel color with high-shine finish.</p>
+                <div class="price">₱550</div>
+            </article>
+
+            <article class="card">
+                <img src="spa.jpg" alt="Spa Pedicure" class="card-img">
+                <h3>Spa Pedicure 🦶</h3>
+                <p>Soak, scrub, mask, massage and polish for refreshed feet.</p>
+                <div class="price">₱600</div>
+            </article>
+
+            <article class="card">
+                <img src="art.jpg" alt="Nail Art" class="card-img">
+                <h3>Nail Art 🎨</h3>
+                <p>Hand-painted designs, glitter, and 3D accents (per design).</p>
+                <div class="price">₱100+</div>
+            </article>
+
+            <article class="card">
+                <img src="ganda 2.jpg" alt="Facial Treatment" class="card-img">
+                <h3>Facial Treatment ✨</h3>
+                <p>Deep cleanse, mask, and hydration to enhance radiance.</p>
+                <div class="price">₱700</div>
+            </article>
+
+            <article class="card">
+                <img src="body.jpg" alt="Full Body Massage" class="card-img">
+                <h3>Full Body Massage 🧖‍♀️</h3>
+                <p>Therapeutic massage to melt stress and tension away.</p>
+                <div class="price">₱900</div>
+            </article>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 💅 NAIL SERVICES SECTION -->
+    <section id="nail-services" class="section container reveal nails-highlight">
+        <h2 class="section-title">💖 Nail Services & Designs 💅</h2>
+        <p class="section-lead">Explore our most loved nail art creations — crafted with elegance, sparkle, and creativity ✨</p>
+
+        <div class="nails-grid">
+            <!-- Nail Cards -->
+            <article class="nail-card" data-style="Black Arrow Nails">
+                <img src="Black arrownails.jpg" alt="Black Arrow Nails">
+                <h3>🖤 Black Arrow Nails</h3>
+                <p>Bold contrast with sleek matte finish and elegant arrow accents.</p>
+                <div class="price">₱850</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Celestial Nails">
+                <img src="Celestial nails.jpg" alt="Celestial Nails">
+                <h3>🌙 Celestial Nails</h3>
+                <p>Galaxy-inspired shimmer with starlight dust and cosmic hues.</p>
+                <div class="price">₱950</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Glass Nails">
+                <img src="Glass nails.jpg" alt="Glass Nails">
+                <h3>💎 Glass Nails</h3>
+                <p>Crystal-clear gloss with reflective rainbow shimmer — pure elegance.</p>
+                <div class="price">₱980</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Barbie Nails">
+                <img src="Barbie nails.jpg" alt="Barbie Nails">
+                <h3>🎀 Barbie Nails</h3>
+                <p>Soft pink glam with sparkles — perfect for every doll vibe 💖</p>
+                <div class="price">₱890</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Flower Nails">
+                <img src="flower nails.webp" alt="Flower Nails">
+                <h3>🌸 Floral Garden Nails</h3>
+                <p>Delicate hand-painted blooms with pastel tones and gold flakes.</p>
+                <div class="price">₱920</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Bride Ombre Nails">
+                <img src="bride-nails-ombre-2.jpg" alt="Bride Ombre Nails">
+                <h3>👰 Bride Ombre Nails</h3>
+                <p>Elegant soft ombré for timeless beauty on your big day 💍</p>
+                <div class="price">₱1,200</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Trendy Gel Nails">
+                <img src="Trendy Gel nails.jpg" alt="Trendy Gel Nails">
+                <h3>💅 Trendy Gel Nails</h3>
+                <p>Long-lasting shine with smooth gel finish — stylish & durable!</p>
+                <div class="price">₱880</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Black Nails Art">
+                <img src="Black Nails art.jpg" alt="Black Nails Art">
+                <h3>🖤 Black Nails Art</h3>
+                <p>Chic and fierce nail art for bold personalities.</p>
+                <div class="price">₱850</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Hotest Nail Design">
+                <img src="Hotest nails design.jpg" alt="Hotest Nail Design">
+                <h3>🔥 Hottest Nail Design</h3>
+                <p>Trendiest style with metallic shimmer and gloss perfection!</p>
+                <div class="price">₱1,050</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+
+            <article class="nail-card" data-style="Blog Style Nails">
+                <img src="BlogThumbnails.webp" alt="Blog Style Nails">
+                <h3>💫 Blog Style Nails</h3>
+                <p>Fresh influencer-style aesthetic — subtle yet captivating 💕</p>
+                <div class="price">₱870</div>
+                <button class="btn-book">💌 Book This Style</button>
+            </article>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- 💆‍♀️ MASSAGE SERVICES SECTION -->
+    <section id="massage-services" class="section container reveal massage-highlight">
+        <h2 class="section-title">💆‍♀️ Massage & Wellness Services 🌿</h2>
+        <p class="section-lead">Relax, unwind, and restore balance with our premium massage treatments ✨</p>
+
+        <div class="nails-grid">
+            <article class="nail-card" data-style="Swedish Massage">
+                <img src="Swedish-massage.webp" alt="Swedish Massage">
+                <h3>🌿 Swedish Massage</h3>
+                <p>A relaxing full-body massage that improves circulation and relieves tension.</p>
+                <div class="price">₱700 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+
+            <article class="nail-card" data-style="Deep Tissue Massage">
+                <img src="Deep tusla.jpg" alt="Deep Tissue Massage">
+                <h3>💪 Deep Tissue Massage</h3>
+                <p>Targets deeper muscle layers to ease chronic tension and stiffness.</p>
+                <div class="price">₱850 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+
+            <article class="nail-card" data-style="Aromatherapy Massage">
+                <img src="sage health.jpg" alt="Aromatherapy Massage">
+                <h3>🌸 Aromatherapy Massage</h3>
+                <p>Combines essential oils and gentle strokes for relaxation and healing.</p>
+                <div class="price">₱900 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+
+            <article class="nail-card" data-style="Hot Stone Massage">
+                <img src="health-glasgow.webp" alt="Hot Stone Massage">
+                <h3>🔥 Hot Stone Massage</h3>
+                <p>Heated stones melt away tension, promoting deep calm and balance.</p>
+                <div class="price">₱1,000 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+
+            <article class="nail-card" data-style="Therapeutic Massage">
+                <img src="Theraphy.jpg" alt="Therapeutic Massage">
+                <h3>🌺 Therapeutic Massage</h3>
+                <p>Customized massage that heals and revitalizes your body and mind.</p>
+                <div class="price">₱800 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+
+            <article class="nail-card" data-style="Wellness Massage">
+                <img src="wellness massage.jpg" alt="Wellness Massage">
+                <h3>💧 Wellness Massage</h3>
+                <p>A gentle, calming massage for total relaxation and wellbeing.</p>
+                <div class="price">₱750 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+
+            <article class="nail-card" data-style="Sweet Tissue Massage">
+                <img src="Sweet Tissue.jpg" alt="Sweet Tissue Massage">
+                <h3>💖 Sweet Tissue Massage</h3>
+                <p>Perfect medium-pressure massage for your sweet self-care sessions 💅</p>
+                <div class="price">₱850 / 60 mins</div>
+                <button class="btn-book">💌 Book This Massage</button>
+            </article>
+        </div>
+    </section>
+
+
+
+
+    <!-- Pricing -->
+    <section id="pricing" class="section container reveal light">
+        <h2 class="section-title">Pricing</h2>
+        <div class="pricing-grid">
+            <div>
+                <strong>Classic Manicure</strong> <span class="price-right">₱300</span><br>
+                <strong>Gel Manicure</strong> <span class="price-right">₱550</span><br>
+                <strong>Spa Pedicure</strong> <span class="price-right">₱600</span>
+            </div>
+            <div>
+                <strong>Nail Art</strong> <span class="price-right">₱100+</span><br>
+                <strong>Facial</strong> <span class="price-right">₱700</span><br>
+                <strong>Full Body Massage</strong> <span class="price-right">₱900</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section container reveal">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <img src="body.jpg" alt="">
+            <img src="both.jpg" alt="">
+            <img src="both 2.jpg" alt="">
+            <img src="ganda 2.jpg" alt="">
+            <img src="ganda.jpg" alt="">
+            <img src="art.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- 💅 CONTACT & BOOKINGS SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+
+            <!-- LEFT: Contact Info -->
+            <div class="contact-left card glass fade-in">
+                <h2>💖 Contact & Visit Us</h2>
+                <p>📍 123 Marikina, City of Beauty</p>
+                <p>🕒 Open: Mon–Sun 10:00 AM – 8:00 PM</p>
+                <p>📱 Call / WhatsApp: <strong>+63 912 345 6789</strong></p>
+                <p class="muted">We’d love to hear from you! 💅</p>
+            </div>
+
+            <!-- RIGHT: Booking Form -->
+            <div class="contact-right card glass fade-in" style="animation-delay:.2s;">
+                <h2>💌 Request an Appointment</h2>
+
+                <form id="contactForm" onsubmit="return false;">
+                    <div class="form-field">
+                        <label for="name">👤 Your Name</label>
+                        <input id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="phone">📞 Phone / WhatsApp</label>
+                        <input id="phone" name="phone" placeholder="+63..." required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="service">💅 Choose Your Service</label>
+                        <select id="service" name="service" required>
+            <option value="" disabled selected>✨ Select a service ✨</option>
+            <option>💖 Classic Manicure</option>
+            <option>💅 Gel Manicure</option>
+            <option>🦋 Spa Pedicure</option>
+            <option>🎨 Nail Art</option>
+          </select>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="date">📅 Preferred Date</label>
+                        <input id="date" type="date" name="date" required>
+                    </div>
+
+                    <button type="submit" class="btn-glow">🚀 Request Booking</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+            e.preventDefault(); // stop reload
+            const name = document.getElementById("name").value.trim();
+            const service = document.getElementById("service").value;
+
+            if (!name || !service) {
+                alert("💅 Please complete all required fields!");
+                return;
+            }
+
+            // Show success pop-up
+            alert(`✨ Thank you, ${name}! Your booking for "${service}" has been sent. We'll contact you soon! 💖`);
+
+            // Reset form
+            this.reset();
+        });
+    </script>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="foot-left">© 2025 Crizel Nail Studio 💅</div>
+            <div class="foot-right">Follow us @crizelnailstudio</div>
+        </div>
+    </footer>
+</body>
+
+</html>
